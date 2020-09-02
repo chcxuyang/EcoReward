@@ -15,6 +15,26 @@
 		2F6760CF24FF6AD300708390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6760CD24FF6AD300708390 /* LaunchScreen.storyboard */; };
 		2F6760DA24FF6AD300708390 /* EcoRewardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6760D924FF6AD300708390 /* EcoRewardTests.swift */; };
 		2F6760E524FF6AD300708390 /* EcoRewardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6760E424FF6AD300708390 /* EcoRewardUITests.swift */; };
+		B0BE256524FF709B00B93784 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255024FF709900B93784 /* Preview Assets.xcassets */; };
+		B0BE256624FF709B00B93784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255124FF709900B93784 /* AppDelegate.swift */; };
+		B0BE256724FF709B00B93784 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255224FF709900B93784 /* RewardsView.swift */; };
+		B0BE256824FF709B00B93784 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255324FF709900B93784 /* HomePage.swift */; };
+		B0BE256924FF709B00B93784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255424FF709900B93784 /* LaunchScreen.storyboard */; };
+		B0BE256A24FF709B00B93784 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255524FF709A00B93784 /* Post.swift */; };
+		B0BE256B24FF709B00B93784 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255624FF709A00B93784 /* ContentView.swift */; };
+		B0BE256C24FF709B00B93784 /* PostListData_recommend_1 copy.json in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255824FF709A00B93784 /* PostListData_recommend_1 copy.json */; };
+		B0BE256D24FF709B00B93784 /* coupon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255924FF709A00B93784 /* coupon1.jpg */; };
+		B0BE256E24FF709B00B93784 /* coupon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255A24FF709A00B93784 /* coupon3.jpg */; };
+		B0BE256F24FF709B00B93784 /* Request-for-Corgi-Clip-Art-2016070754.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255B24FF709A00B93784 /* Request-for-Corgi-Clip-Art-2016070754.png */; };
+		B0BE257024FF709B00B93784 /* coupon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255C24FF709A00B93784 /* coupon2.jpg */; };
+		B0BE257124FF709B00B93784 /* iconfinder_Puppy_5439767.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255D24FF709A00B93784 /* iconfinder_Puppy_5439767.png */; };
+		B0BE257224FF709B00B93784 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255E24FF709A00B93784 /* background.png */; };
+		B0BE257324FF709B00B93784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255F24FF709A00B93784 /* SceneDelegate.swift */; };
+		B0BE257424FF709B00B93784 /* RewardsNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE256024FF709A00B93784 /* RewardsNavView.swift */; };
+		B0BE257524FF709B00B93784 /* CherryHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE256124FF709A00B93784 /* CherryHomePage.swift */; };
+		B0BE257624FF709B00B93784 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0BE256224FF709B00B93784 /* Info.plist */; };
+		B0BE257724FF709B00B93784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BE256324FF709B00B93784 /* Assets.xcassets */; };
+		B0BE257824FF709B00B93784 /* vipBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE256424FF709B00B93784 /* vipBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +69,26 @@
 		2F6760E024FF6AD300708390 /* EcoRewardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoRewardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6760E424FF6AD300708390 /* EcoRewardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRewardUITests.swift; sourceTree = "<group>"; };
 		2F6760E624FF6AD300708390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BE255024FF709900B93784 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0BE255124FF709900B93784 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0BE255224FF709900B93784 /* RewardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		B0BE255324FF709900B93784 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		B0BE255424FF709900B93784 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0BE255524FF709A00B93784 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B0BE255624FF709A00B93784 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0BE255824FF709A00B93784 /* PostListData_recommend_1 copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "PostListData_recommend_1 copy.json"; sourceTree = "<group>"; };
+		B0BE255924FF709A00B93784 /* coupon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coupon1.jpg; sourceTree = "<group>"; };
+		B0BE255A24FF709A00B93784 /* coupon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coupon3.jpg; sourceTree = "<group>"; };
+		B0BE255B24FF709A00B93784 /* Request-for-Corgi-Clip-Art-2016070754.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Request-for-Corgi-Clip-Art-2016070754.png"; sourceTree = "<group>"; };
+		B0BE255C24FF709A00B93784 /* coupon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coupon2.jpg; sourceTree = "<group>"; };
+		B0BE255D24FF709A00B93784 /* iconfinder_Puppy_5439767.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_Puppy_5439767.png; sourceTree = "<group>"; };
+		B0BE255E24FF709A00B93784 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B0BE255F24FF709A00B93784 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0BE256024FF709A00B93784 /* RewardsNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsNavView.swift; sourceTree = "<group>"; };
+		B0BE256124FF709A00B93784 /* CherryHomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CherryHomePage.swift; sourceTree = "<group>"; };
+		B0BE256224FF709B00B93784 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BE256324FF709B00B93784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0BE256424FF709B00B93784 /* vipBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vipBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +208,20 @@
 		2F6760F724FF6B5600708390 /* Coupon Page */ = {
 			isa = PBXGroup;
 			children = (
+				B0BE255124FF709900B93784 /* AppDelegate.swift */,
+				B0BE256324FF709B00B93784 /* Assets.xcassets */,
+				B0BE256124FF709A00B93784 /* CherryHomePage.swift */,
+				B0BE255624FF709A00B93784 /* ContentView.swift */,
+				B0BE255324FF709900B93784 /* HomePage.swift */,
+				B0BE256224FF709B00B93784 /* Info.plist */,
+				B0BE255424FF709900B93784 /* LaunchScreen.storyboard */,
+				B0BE255524FF709A00B93784 /* Post.swift */,
+				B0BE254F24FF709900B93784 /* Preview Content */,
+				B0BE255724FF709A00B93784 /* Resources */,
+				B0BE256024FF709A00B93784 /* RewardsNavView.swift */,
+				B0BE255224FF709900B93784 /* RewardsView.swift */,
+				B0BE255F24FF709A00B93784 /* SceneDelegate.swift */,
+				B0BE256424FF709B00B93784 /* vipBadge.swift */,
 			);
 			path = "Coupon Page";
 			sourceTree = "<group>";
@@ -198,6 +252,28 @@
 			children = (
 			);
 			path = "Product Screen";
+			sourceTree = "<group>";
+		};
+		B0BE254F24FF709900B93784 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE255024FF709900B93784 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0BE255724FF709A00B93784 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE255824FF709A00B93784 /* PostListData_recommend_1 copy.json */,
+				B0BE255924FF709A00B93784 /* coupon1.jpg */,
+				B0BE255A24FF709A00B93784 /* coupon3.jpg */,
+				B0BE255B24FF709A00B93784 /* Request-for-Corgi-Clip-Art-2016070754.png */,
+				B0BE255C24FF709A00B93784 /* coupon2.jpg */,
+				B0BE255D24FF709A00B93784 /* iconfinder_Puppy_5439767.png */,
+				B0BE255E24FF709A00B93784 /* background.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,9 +380,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0BE257024FF709B00B93784 /* coupon2.jpg in Resources */,
+				B0BE257224FF709B00B93784 /* background.png in Resources */,
+				B0BE256C24FF709B00B93784 /* PostListData_recommend_1 copy.json in Resources */,
+				B0BE256E24FF709B00B93784 /* coupon3.jpg in Resources */,
+				B0BE257724FF709B00B93784 /* Assets.xcassets in Resources */,
+				B0BE256524FF709B00B93784 /* Preview Assets.xcassets in Resources */,
+				B0BE257124FF709B00B93784 /* iconfinder_Puppy_5439767.png in Resources */,
 				2F6760CF24FF6AD300708390 /* LaunchScreen.storyboard in Resources */,
 				2F6760CC24FF6AD300708390 /* Preview Assets.xcassets in Resources */,
+				B0BE256D24FF709B00B93784 /* coupon1.jpg in Resources */,
+				B0BE256924FF709B00B93784 /* LaunchScreen.storyboard in Resources */,
 				2F6760C924FF6AD300708390 /* Assets.xcassets in Resources */,
+				B0BE256F24FF709B00B93784 /* Request-for-Corgi-Clip-Art-2016070754.png in Resources */,
+				B0BE257624FF709B00B93784 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +418,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0BE256624FF709B00B93784 /* AppDelegate.swift in Sources */,
+				B0BE257524FF709B00B93784 /* CherryHomePage.swift in Sources */,
+				B0BE256824FF709B00B93784 /* HomePage.swift in Sources */,
+				B0BE257324FF709B00B93784 /* SceneDelegate.swift in Sources */,
+				B0BE256B24FF709B00B93784 /* ContentView.swift in Sources */,
 				2F6760C324FF6AD200708390 /* AppDelegate.swift in Sources */,
 				2F6760C524FF6AD200708390 /* SceneDelegate.swift in Sources */,
+				B0BE256724FF709B00B93784 /* RewardsView.swift in Sources */,
+				B0BE256A24FF709B00B93784 /* Post.swift in Sources */,
 				2F6760C724FF6AD200708390 /* ContentView.swift in Sources */,
+				B0BE257424FF709B00B93784 /* RewardsNavView.swift in Sources */,
+				B0BE257824FF709B00B93784 /* vipBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
