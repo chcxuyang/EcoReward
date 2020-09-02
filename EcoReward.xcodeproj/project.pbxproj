@@ -35,6 +35,13 @@
 		B0BE257624FF709B00B93784 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0BE256224FF709B00B93784 /* Info.plist */; };
 		B0BE257724FF709B00B93784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BE256324FF709B00B93784 /* Assets.xcassets */; };
 		B0BE257824FF709B00B93784 /* vipBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE256424FF709B00B93784 /* vipBadge.swift */; };
+		DFEDB5B424FF766B00D46DBE /* QRscanerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDB5AB24FF766B00D46DBE /* QRscanerController.swift */; };
+		DFEDB5B524FF766C00D46DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEDB5AC24FF766B00D46DBE /* Assets.xcassets */; };
+		DFEDB5B624FF766C00D46DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEDB5AD24FF766B00D46DBE /* LaunchScreen.storyboard */; };
+		DFEDB5B724FF766C00D46DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEDB5AF24FF766B00D46DBE /* Main.storyboard */; };
+		DFEDB5B824FF766C00D46DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDB5B124FF766B00D46DBE /* AppDelegate.swift */; };
+		DFEDB5B924FF766C00D46DBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFEDB5B224FF766B00D46DBE /* Info.plist */; };
+		DFEDB5BA24FF766C00D46DBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDB5B324FF766B00D46DBE /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +96,13 @@
 		B0BE256224FF709B00B93784 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BE256324FF709B00B93784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0BE256424FF709B00B93784 /* vipBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vipBadge.swift; sourceTree = "<group>"; };
+		DFEDB5AB24FF766B00D46DBE /* QRscanerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRscanerController.swift; sourceTree = "<group>"; };
+		DFEDB5AC24FF766B00D46DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEDB5AE24FF766B00D46DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFEDB5B024FF766B00D46DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFEDB5B124FF766B00D46DBE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFEDB5B224FF766B00D46DBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEDB5B324FF766B00D46DBE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +201,7 @@
 		2F6760F224FF6AE900708390 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				DFEDB5AA24FF766B00D46DBE /* QRtest */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -274,6 +289,20 @@
 				B0BE255E24FF709A00B93784 /* background.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFEDB5AA24FF766B00D46DBE /* QRtest */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDB5AB24FF766B00D46DBE /* QRscanerController.swift */,
+				DFEDB5AC24FF766B00D46DBE /* Assets.xcassets */,
+				DFEDB5AD24FF766B00D46DBE /* LaunchScreen.storyboard */,
+				DFEDB5AF24FF766B00D46DBE /* Main.storyboard */,
+				DFEDB5B124FF766B00D46DBE /* AppDelegate.swift */,
+				DFEDB5B224FF766B00D46DBE /* Info.plist */,
+				DFEDB5B324FF766B00D46DBE /* SceneDelegate.swift */,
+			);
+			path = QRtest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,12 +411,16 @@
 			files = (
 				B0BE257024FF709B00B93784 /* coupon2.jpg in Resources */,
 				B0BE257224FF709B00B93784 /* background.png in Resources */,
+				DFEDB5B924FF766C00D46DBE /* Info.plist in Resources */,
 				B0BE256C24FF709B00B93784 /* PostListData_recommend_1 copy.json in Resources */,
 				B0BE256E24FF709B00B93784 /* coupon3.jpg in Resources */,
+				DFEDB5B524FF766C00D46DBE /* Assets.xcassets in Resources */,
 				B0BE257724FF709B00B93784 /* Assets.xcassets in Resources */,
+				DFEDB5B724FF766C00D46DBE /* Main.storyboard in Resources */,
 				B0BE256524FF709B00B93784 /* Preview Assets.xcassets in Resources */,
 				B0BE257124FF709B00B93784 /* iconfinder_Puppy_5439767.png in Resources */,
 				2F6760CF24FF6AD300708390 /* LaunchScreen.storyboard in Resources */,
+				DFEDB5B624FF766C00D46DBE /* LaunchScreen.storyboard in Resources */,
 				2F6760CC24FF6AD300708390 /* Preview Assets.xcassets in Resources */,
 				B0BE256D24FF709B00B93784 /* coupon1.jpg in Resources */,
 				B0BE256924FF709B00B93784 /* LaunchScreen.storyboard in Resources */,
@@ -422,7 +455,10 @@
 				B0BE257524FF709B00B93784 /* CherryHomePage.swift in Sources */,
 				B0BE256824FF709B00B93784 /* HomePage.swift in Sources */,
 				B0BE257324FF709B00B93784 /* SceneDelegate.swift in Sources */,
+				DFEDB5B824FF766C00D46DBE /* AppDelegate.swift in Sources */,
+				DFEDB5BA24FF766C00D46DBE /* SceneDelegate.swift in Sources */,
 				B0BE256B24FF709B00B93784 /* ContentView.swift in Sources */,
+				DFEDB5B424FF766B00D46DBE /* QRscanerController.swift in Sources */,
 				2F6760C324FF6AD200708390 /* AppDelegate.swift in Sources */,
 				2F6760C524FF6AD200708390 /* SceneDelegate.swift in Sources */,
 				B0BE256724FF709B00B93784 /* RewardsView.swift in Sources */,
@@ -471,6 +507,22 @@
 				2F6760CE24FF6AD300708390 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFEDB5AD24FF766B00D46DBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEDB5AE24FF766B00D46DBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFEDB5AF24FF766B00D46DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEDB5B024FF766B00D46DBE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
