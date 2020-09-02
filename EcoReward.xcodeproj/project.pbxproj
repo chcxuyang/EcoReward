@@ -79,6 +79,14 @@
 		2F6760B624FF6AD200708390 = {
 			isa = PBXGroup;
 			children = (
+				2F6760F424FF6B2B00708390 /* Home Page */,
+				2F6760FC24FF6C5300708390 /* Product Screen */,
+				2F6760F224FF6AE900708390 /* Camera */,
+				2F6760F724FF6B5600708390 /* Coupon Page */,
+				2F6760F524FF6B4700708390 /* Me Page */,
+				2F6760FA24FF6BAC00708390 /* Signup Page */,
+				2F6760F824FF6B9B00708390 /* Login Page */,
+				2F6760FB24FF6BBE00708390 /* Lauching Page */,
 				2F6760C124FF6AD200708390 /* EcoReward */,
 				2F6760D824FF6AD300708390 /* EcoRewardTests */,
 				2F6760E324FF6AD300708390 /* EcoRewardUITests */,
@@ -134,6 +142,62 @@
 				2F6760E624FF6AD300708390 /* Info.plist */,
 			);
 			path = EcoRewardUITests;
+			sourceTree = "<group>";
+		};
+		2F6760F224FF6AE900708390 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		2F6760F424FF6B2B00708390 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		2F6760F524FF6B4700708390 /* Me Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Me Page";
+			sourceTree = "<group>";
+		};
+		2F6760F724FF6B5600708390 /* Coupon Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Coupon Page";
+			sourceTree = "<group>";
+		};
+		2F6760F824FF6B9B00708390 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		2F6760FA24FF6BAC00708390 /* Signup Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Signup Page";
+			sourceTree = "<group>";
+		};
+		2F6760FB24FF6BBE00708390 /* Lauching Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lauching Page";
+			sourceTree = "<group>";
+		};
+		2F6760FC24FF6C5300708390 /* Product Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Product Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
