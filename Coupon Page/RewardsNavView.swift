@@ -14,12 +14,12 @@ private let KButtonHeight: CGFloat = 24
 struct RewardsNavView: View {
     @State var leftPercent: CGFloat // 0 for left, 1 for right
     var body: some View {
-
         // VStack for 3 button
         VStack{
             // HStack for two choices
             HStack(spacing: 0){
-                Text("Available")                        .font(Font.system(size:15))
+                Text("Available")
+                    .font(Font.system(size:15))
                     .foregroundColor(.black)
                     .frame(width: KLabelWidth, height: KButtonHeight)
                     .opacity(Double(1 - leftPercent * 0.5))
@@ -27,7 +27,7 @@ struct RewardsNavView: View {
                         withAnimation{
                             self.leftPercent = 0
                         }
-                }
+                    }
                 
                 Spacer()
                 
@@ -40,7 +40,7 @@ struct RewardsNavView: View {
                         withAnimation{
                           self.leftPercent = 1
                         }
-                }
+                    }
             }
             
             
@@ -56,17 +56,6 @@ struct RewardsNavView: View {
             
         // set the width size of two choice
         .frame(width:UIScreen.main.bounds.width * 0.86)
-            
-        
-
-   
-    
-    
-    
-        
-        
-        
-        
         
     }
     

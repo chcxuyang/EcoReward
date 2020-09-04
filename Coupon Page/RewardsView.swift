@@ -12,16 +12,16 @@ struct RewardsView: View {
     var body: some View {
         NavigationView{
             VStack (spacing: 5){
-                    Image(uiImage: UIImage(named: "coupon1.jpg")!)
+                    Image(uiImage: UIImage(named: "coupon_a_1.png")!)
                         .resizable()
                         .scaledToFill()
                         .frame(width:340, height: 155)
             
-                    Image(uiImage: UIImage(named: "coupon2.jpg")!)
+                    Image(uiImage: UIImage(named: "coupon_a_2.png")!)
                         .resizable()
                         .scaledToFill()
                         .frame(width:340, height: 155)
-//                    Image(uiImage: UIImage(named: "coupon3.jpg")!)
+                    Image(uiImage: UIImage(named: "coupon_a_3.png")!)
                         .resizable()
                         .scaledToFill()
                         .frame(width:340, height: 155)
