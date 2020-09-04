@@ -1,5 +1,5 @@
 //
-//  RewardsView.swift
+//  RewardsView.swift.swift
 //  Cherry_Pro_Max
 //
 //  Created by chenchen on 9/2/20.
@@ -9,24 +9,27 @@
 import SwiftUI
 
 struct RewardsView: View {
+    
+    @State var leftPercent: CGFloat = 0
+    
     var body: some View {
         NavigationView{
-            VStack (spacing: 5){
-                    Image(uiImage: UIImage(named: "coupon_a_1.png")!)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width:340, height: 155)
-            
-                    Image(uiImage: UIImage(named: "coupon_a_2.png")!)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width:340, height: 155)
-                    Image(uiImage: UIImage(named: "coupon_a_3.png")!)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width:340, height: 155)
+            GeometryReader {geometry in
+                HScrollViewController(pageWidth: geometry.size.width, contentSize: CGSize(width: geometry.size.width * 2, height: geometry.size.height),
+                    leftPercent: self.$leftPercent)
+                {
+                    HStack(spacing:0){
+                                       RewardsAvailableView()
+                                           .frame(width:UIScreen.main.bounds.width)
+                                       RewardsUsedView()
+                                           .frame(width:UIScreen.main.bounds.width)
+                    }
+                    
+                }
+                
             }
-            .navigationBarItems(leading: RewardsNavView(leftPercent: 0))
+            .edgesIgnoringSafeArea(.bottom)
+            .navigationBarItems(leading: RewardsNavView(leftPercent: $leftPercent))
         }
       
     }

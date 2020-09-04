@@ -16,9 +16,6 @@
 		2F6760DA24FF6AD300708390 /* EcoRewardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6760D924FF6AD300708390 /* EcoRewardTests.swift */; };
 		2F6760E524FF6AD300708390 /* EcoRewardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6760E424FF6AD300708390 /* EcoRewardUITests.swift */; };
 		B0BE256724FF709B00B93784 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE255224FF709900B93784 /* RewardsView.swift */; };
-		B0BE256D24FF709B00B93784 /* coupon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255924FF709A00B93784 /* coupon1.jpg */; };
-		B0BE256E24FF709B00B93784 /* coupon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255A24FF709A00B93784 /* coupon3.jpg */; };
-		B0BE257024FF709B00B93784 /* coupon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0BE255C24FF709A00B93784 /* coupon2.jpg */; };
 		B0BE257424FF709B00B93784 /* RewardsNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE256024FF709A00B93784 /* RewardsNavView.swift */; };
 		B0BE257824FF709B00B93784 /* vipBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE256424FF709B00B93784 /* vipBadge.swift */; };
 		B0F8603F24FFC52E0087886D /* coupon_u_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F8603E24FFC52E0087886D /* coupon_u_1.png */; };
@@ -63,9 +60,6 @@
 		2F6760E424FF6AD300708390 /* EcoRewardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRewardUITests.swift; sourceTree = "<group>"; };
 		2F6760E624FF6AD300708390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BE255224FF709900B93784 /* RewardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
-		B0BE255924FF709A00B93784 /* coupon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coupon1.jpg; sourceTree = "<group>"; };
-		B0BE255A24FF709A00B93784 /* coupon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coupon3.jpg; sourceTree = "<group>"; };
-		B0BE255C24FF709A00B93784 /* coupon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coupon2.jpg; sourceTree = "<group>"; };
 		B0BE256024FF709A00B93784 /* RewardsNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsNavView.swift; sourceTree = "<group>"; };
 		B0BE256424FF709B00B93784 /* vipBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vipBadge.swift; sourceTree = "<group>"; };
 		B0F8603E24FFC52E0087886D /* coupon_u_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon_u_1.png; sourceTree = "<group>"; };
@@ -238,9 +232,6 @@
 				B0F8604224FFC8680087886D /* coupon_a_2.png */,
 				B0F8604024FFC8630087886D /* coupon_a_1.png */,
 				B0F8603E24FFC52E0087886D /* coupon_u_1.png */,
-				B0BE255924FF709A00B93784 /* coupon1.jpg */,
-				B0BE255A24FF709A00B93784 /* coupon3.jpg */,
-				B0BE255C24FF709A00B93784 /* coupon2.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -359,14 +350,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BE257024FF709B00B93784 /* coupon2.jpg in Resources */,
 				B0F8604124FFC8630087886D /* coupon_a_1.png in Resources */,
 				B0F8604324FFC8680087886D /* coupon_a_2.png in Resources */,
-				B0BE256E24FF709B00B93784 /* coupon3.jpg in Resources */,
 				B0F8603F24FFC52E0087886D /* coupon_u_1.png in Resources */,
 				2F6760CF24FF6AD300708390 /* LaunchScreen.storyboard in Resources */,
 				2F6760CC24FF6AD300708390 /* Preview Assets.xcassets in Resources */,
-				B0BE256D24FF709B00B93784 /* coupon1.jpg in Resources */,
 				2F6760C924FF6AD300708390 /* Assets.xcassets in Resources */,
 				B0F8604524FFC86D0087886D /* coupon_a_3.png in Resources */,
 			);
